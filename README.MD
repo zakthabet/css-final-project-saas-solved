@@ -6,6 +6,8 @@ Introducing SAAS Project: The Ultimate HTML & CSS Challenge for Aspiring Web Des
 
 In today’s digital landscape, having a strong foundation in HTML and CSS is essential for anyone wanting to create visually engaging and user-friendly websites. SAAS Project empowers students to put their skills to the test by building stunning, responsive landing pages from scratch. This project goes beyond static pages; it encourages creativity through animations and dynamic styling, ensuring students not only understand the basics of HTML and CSS but also know how to apply them to craft memorable user experiences.
 
+**This Assignment is NOT tested. You can use all the desired creativity, but make sure it 100% follows all the requirements!**
+
 Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkXShiSi9c1rKZ/SAAS-Landing-Page?node-id=0-1&m=dev&t=fWkuFirYcZYC8hhZ-1)
 
 ## Standard Requirements
@@ -13,7 +15,6 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
 - [ ] Fork the project to your github account
 - [ ] Clone the project to your computer
 - [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] **This Assignment is NOT tested. You can use all the desired creativity!**
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] The code of the index.html and styles.css (all css files) should pass the W3C validation (Feel free to use either the [W3C web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator) VSCode extension or the [Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input))
 - [ ] The code MUST be formatted with Prettier.
