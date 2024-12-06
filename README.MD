@@ -15,7 +15,7 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
 - [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
 - [ ] **This Assignment is NOT tested. You can use all the desired creativity!**
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] The code of the index.html and styles.css (all css files) should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
+- [ ] The code of the index.html and styles.css (all css files) should pass the W3C validation (Feel free to use either the [W3C web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator) VSCode extension or the [Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input))
 - [ ] The code MUST be formatted with Prettier.
 - [ ] Push the changes to the Github repo, when finished.
 - [ ] Submit a .txt file with the Github repo url.
