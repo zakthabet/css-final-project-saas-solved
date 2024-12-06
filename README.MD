@@ -45,6 +45,6 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
   - [ ] Bottom navigation items
   - [ ] "View privacy policy" link in the form
 
-  `Tablet and mobile specific`
+`Tablet and mobile specific`
 
-  - [ ] Should not have transition and keyframe animations working.
+- [ ] Should not have transition and keyframe animations working.
