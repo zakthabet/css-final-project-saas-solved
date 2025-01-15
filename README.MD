@@ -41,7 +41,7 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
 - [ ] The following items must include hover animations:
 
   - [ ] Top navigation items
-  - [ ] All buttons (e.g., buy, play, form submit) (use the inversed colors for the border, background, text color and the icon color for the hovered state)
+  - [ ] All buttons (e.g., buy, play, form submit) (use the inverse colors for the border, background, text color and the icon color for the hovered state)
   - [ ] The main price box in the "Pricing" section (add the shadow around the box for the hovered state)
   - [ ] Bottom navigation items
   - [ ] "View privacy policy" link in the form
