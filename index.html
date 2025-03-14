@@ -8,57 +8,60 @@
     <title>Saas company</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <a href=""><img src="/assets/logos/logo-front.svg" alt="" /></a>
-      </div>
-      <ul>
-        <li><a class="hide_on_mobile" href="">Home</a></li>
-        <li><a class="hide_on_mobile" href="">Features</a></li>
-        <li><a class="hide_on_mobile" href="">Learn</a></li>
-        <li><a class="hide_on_mobile" href="">Pricing</a></li>
-        <li><a class="hide_on_mobile" href="">Hire us</a></li>
-      </ul>
-      <a class="hide_on_mobile" href=""><button class="btn">Buy Now</button></a>
-      <a class="trigram"><i class="fa fa-bars"></i></a>
-    </header>
-    <section class="hero">
-      <div class="hero_card">
-        <h1>Empowering teams with the freedom</h1>
-        <p>Own the unlimited power of the web development</p>
-        <div class="btn_row">
-          <a href=""
-            ><button class="btn">
-              <i class="fa fa-play-circle-o" aria-hidden="true"></i> Play Video
-            </button></a
-          >
-          <a href="">Learn More</a>
+    <div class="header_container">
+      <header>
+        <div class="logo">
+          <a href=""><img src="/assets/logos/logo-front.svg" alt="" /></a>
         </div>
-      </div>
-      <div class="logo_bubbles">
-        <div class="bubble logo_1">
-          <img src="/assets/logos/google.png" alt="" />
+        <ul>
+          <li><a class="hide_on_mobile" href="">Home</a></li>
+          <li><a class="hide_on_mobile" href="">Features</a></li>
+          <li><a class="hide_on_mobile" href="">Learn</a></li>
+          <li><a class="hide_on_mobile" href="">Pricing</a></li>
+          <li><a class="hide_on_mobile" href="">Hire us</a></li>
+        </ul>
+        <a class="hide_on_mobile btn" href="">Buy Now</a>
+        <a class="trigram"><i class="fa fa-bars"></i></a>
+      </header>
+    </div>
+    <div class="hero_container">
+      <section class="hero">
+        <div class="hero_card">
+          <h1>Empowering teams with the freedom</h1>
+          <p>Own the unlimited power of the web development</p>
+          <div class="btn_row">
+            <a class="btn" href="">
+              <i class="fa fa-play-circle-o" aria-hidden="true"> </i>
+              Play Video
+            </a>
+            <a href="">Learn More</a>
+          </div>
         </div>
-        <div class="bubble logo_2">
-          <img src="/assets/logos/atlassian.png" alt="" />
+        <div class="logo_bubbles">
+          <div class="bubble logo_1">
+            <img src="/assets/logos/google.png" alt="" />
+          </div>
+          <div class="bubble logo_2">
+            <img src="/assets/logos/atlassian.png" alt="" />
+          </div>
+          <div class="bubble logo_3">
+            <img src="/assets/logos/asana.png" alt="" />
+          </div>
+          <div class="bubble logo_4">
+            <img src="/assets/logos/paypal.jpg" alt="" />
+          </div>
+          <div class="bubble logo_5">
+            <img src="/assets/logos/weave.png" alt="" />
+          </div>
+          <div class="bubble logo_6">
+            <img src="/assets/logos/google-ads.png" alt="" />
+          </div>
+          <div class="bubble logo_7">
+            <img src="/assets/logos/calendar.png" alt="" />
+          </div>
         </div>
-        <div class="bubble logo_3">
-          <img src="/assets/logos/asana.png" alt="" />
-        </div>
-        <div class="bubble logo_4">
-          <img src="/assets/logos/paypal.jpg" alt="" />
-        </div>
-        <div class="bubble logo_5">
-          <img src="/assets/logos/weave.png" alt="" />
-        </div>
-        <div class="bubble logo_6">
-          <img src="/assets/logos/google-ads.png" alt="" />
-        </div>
-        <div class="bubble logo_7">
-          <img src="/assets/logos/calendar.png" alt="" />
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section class="features">
       <h2>Why front?</h2>
@@ -113,11 +116,9 @@
             Start your Front business now. 100% guaranteed money back. No
             questions asked.
           </p>
-          <a href=""
-            ><button class="btn">
-              <i class="fa fa-play-circle-o" aria-hidden="true"></i> Play Video
-            </button></a
-          >
+          <a class="btn" href="">
+            <i class="fa fa-play-circle-o" aria-hidden="true"></i> Play Video
+          </a>
           <p>No credit card required.</p>
         </div>
         <div class="grid_cards">
@@ -154,73 +155,72 @@
         </div>
       </div>
     </section>
-
-    <section class="hire">
-      <div class="hire_card">
-        <div class="hire_title">
-          <h2>Hire Us</h2>
-          <p>Whatever your goal - we will get you there</p>
-          <hr />
-          <q>
-            I love front! I love the ease of use, I love the fact that I have
-            total creative freedom...
-          </q>
-        </div>
-        <div class="person-info">
-          <div>
-            <h3>Charlotte Moore</h3>
-            <p>Head of Commercials, Slack</p>
+    <div class="hire_container">
+      <section class="hire">
+        <div class="hire_card">
+          <div class="hire_title">
+            <h2>Hire Us</h2>
+            <p>Whatever your goal - we will get you there</p>
+            <hr />
+            <q>
+              I love front! I love the ease of use, I love the fact that I have
+              total creative freedom...
+            </q>
           </div>
-          <div class="profile">
-            <img src="/assets/images/man_one.jpg" alt="" />
+          <div class="person-info">
+            <div>
+              <h3>Charlotte Moore</h3>
+              <p>Head of Commercials, Slack</p>
+            </div>
+            <div class="profile">
+              <img src="/assets/images/man_one.jpg" alt="" />
+            </div>
           </div>
         </div>
-      </div>
-      <form action="">
-        <h2>Fill out the form and we'll be in touch as soon as possible</h2>
-        <div class="form_group">
-          <input type="text" name="first_name" id="" placeholder="First" />
-          <input type="text" name="last_name" id="" placeholder="Last" />
-        </div>
+        <form>
+          <h2>Fill out the form and we'll be in touch as soon as possible</h2>
+          <div class="form_group">
+            <input type="text" name="first_name" placeholder="First" />
+            <input type="text" name="last_name" placeholder="Last" />
+          </div>
 
-        <input type="email" placeholder="Email" />
+          <input type="email" placeholder="Email" />
 
-        <div class="form_group">
-          <select name="Budget" id="">
-            <option value="" selected disabled>Budget</option>
-            <option>high</option>
-            <option>ok</option>
-            <option>low</option>
-          </select>
-          <select name="Country" id="">
-            <option value="" selected disabled>Country</option>
-            <option>high</option>
-            <option>ok</option>
-            <option>low</option>
-          </select>
-        </div>
+          <div class="form_group">
+            <select name="Budget">
+              <option value="" selected disabled>Budget</option>
+              <option>high</option>
+              <option>ok</option>
+              <option>low</option>
+            </select>
+            <select name="Country">
+              <option value="" selected disabled>Country</option>
+              <option>high</option>
+              <option>ok</option>
+              <option>low</option>
+            </select>
+          </div>
 
-        <textarea
-          name=""
-          id=""
-          placeholder="Tell us more about your project, needs, and timeline,
+          <textarea
+            placeholder="Tell us more about your project, needs, and timeline,
         please..."
-        ></textarea>
+          ></textarea>
 
-        <div>
-          <input type="checkbox" id="agreement" />
-          <label for="agreement">
-            Yes, I'd like to receive occasional marketing emails from Front. I
-            have the right to opt out at any time.</label
-          >
-        </div>
-        <div>
-          <a href="">View privacy policy</a>
-        </div>
+          <div>
+            <input type="checkbox" id="agreement" />
+            <label for="agreement">
+              Yes, I'd like to receive occasional marketing emails from Front. I
+              have the right to opt out at any time.</label
+            >
+          </div>
+          <div>
+            <a href="">View privacy policy</a>
+          </div>
 
-        <input class="btn" type="submit" />
-      </form>
-    </section>
+          <input class="btn" type="submit" />
+        </form>
+      </section>
+    </div>
 
     <footer>
       <div>
